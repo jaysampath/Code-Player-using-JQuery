@@ -1,0 +1,57 @@
+<html> 
+  
+    <head>
+    
+        <title> Code Player </title>
+        
+        <!-- http://jayasampathwebhosting-com.stackstaging.com/ -->
+        
+         <script type="text/javascript" src="jquery.min.js"></script>
+         <link rel="stylesheet" type="text/css" href="style.css">
+       
+        
+    </head>
+
+    <body> 
+    
+        <div id="top-bar">
+            
+            <div id="logo">
+                CodePlayer
+            </div>
+            
+            <div id="button-container">
+                
+                <div class="toggle-button active" id="html">HTML </div>
+                
+                <div class="toggle-button" id="css">CSS </div>
+                
+                <div class="toggle-button" id="javascript">JavaScript </div>
+                
+                <div class="toggle-button active" id="output">Output </div>
+                
+            </div>
+            
+            
+        </div>
+        
+        <div id="body-container">
+            
+            <textarea id="html-panel" class="panel"> <p id="text"> HTML</p></textarea>
+            
+            
+            <textarea id="css-panel" class="panel hidden">#text{color:green;}</textarea>
+            
+            <textarea id="javascript-panel" class="panel hidden">document.getElementById("text").innerHTML = "Hello Jay!"; </textarea>
+            
+            <iframe id="output-panel" class ="panel" >Output</iframe>
+        </div>
+    
+        <script type="text/javascript" src="script.js"></script>
+         
+    
+    </body>
+
+
+
+</html>
