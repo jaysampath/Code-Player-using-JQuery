@@ -21,4 +21,4 @@ Code Player is a web application built using JQuery. This app is basically a rep
 
 <h2>In action </h2>
 
-<p>See, this application in action <a href="http://jayasampathwebhosting-com.stackstaging.com/projects/code-player/" >here.</a></p>
+<p>See, this application in action <a href="http://jayasampathwebhosting-com.stackstaging.com/projects/code-player/" target="_blank" >here.</a></p>
